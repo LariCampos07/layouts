@@ -1,0 +1,48 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: serif;
+    text-align: center;
+}
+
+
+.container-principal {
+    display: flex;
+}
+
+nav {
+    background-color: thistle;
+    width: 20%;
+    padding-top: 250px;
+    font-size: 20px;
+}
+
+.lado-direito {
+    width: 80%;
+    display: flex;
+    flex-direction: column; 
+    
+}
+
+header {
+    background-color: tomato;
+    padding: 40px;
+    font-size: 20px;
+}
+
+main {
+    background-color: lightseagreen;
+    padding: 150px 0;
+    font-size: 20px;
+}
+
+footer {
+    background-color: blueviolet;
+    padding: 40px;
+    font-size: 20px;
+}

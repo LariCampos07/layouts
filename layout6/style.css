@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.linha {
+    display: flex;
+    padding: 20px;
+}
+
+
+.bola {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; 
+}
+
+.roxa {
+    background-color: lavender;
+    justify-content: flex-end; 
+    gap: 10px;
+}
+.roxa-bola {
+    background-color: mediumpurple;
+}
+
+
+.verde {
+    background-color: #d4f7c7;
+    justify-content: flex-end;
+    gap: 10px;
+}
+.verde-bola {
+    background-color: #6aa84f;
+}
+
+
+.rosa-claro {
+    background-color: #fde8e8;
+    justify-content: center; 
+    gap: 10px;
+}
+.rosa-bola {
+    background-color: #c86b6b;
+}
+
+
+.amarela {
+    background-color: #fdf6d8;
+    justify-content: space-between; 
+}
+.amarela-bola {
+    background-color: #d4d42a;
+}
+
+
+.azul-clara {
+    background-color: #d6e8ff;
+    justify-content: space-around; 
+}
+.azul-bola {
+    background-color: #4a7ab5;
+}

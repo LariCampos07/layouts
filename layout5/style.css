@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: serif;
+    text-align: center;
+}
+
+.container-principal {
+    display: flex;
+}
+
+nav {
+    background-color: thistle;
+    width: 12%;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.link {
+    background-color: tomato;
+    padding: 5px 10px;
+    font-size: 10px;
+}
+
+.lado-direito {
+    width: 88%;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: tomato;
+    padding: 15px;
+}
+
+.meio {
+    display: flex;
+}
+
+article {
+    background-color: palegreen;
+    width: 85%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+}
+
+.caixa-azul {
+    background-color: lightblue;
+    width: 60%;
+    height: 100px;
+}
+
+.caixas-rosa {
+    display: flex;
+    gap: 100px;
+}
+
+.rosa {
+    background-color: pink;
+    width: 150px;
+    height: 80px;
+}
+
+aside {
+    background-color: wheat;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding-top: 20px;
+}
+
+.item {
+    background-color: aqua;
+    width: 50px;
+    height: 50px;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background-color: blueviolet;
+    padding: 15px;
+}
